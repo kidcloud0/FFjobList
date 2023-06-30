@@ -1,0 +1,16 @@
+.charaName{
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.Card{
+    background-color: gray;
+    margin-bottom: 1rem;
+    width: 30rem;
+    border-radius: 10%;
+    margin-right: 3rem;
+}
+.charaImage{
+    width: 10rem;
+    height: 9rem;
+}
