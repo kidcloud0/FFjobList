@@ -11,7 +11,7 @@ export default class JobList extends React.Component{
     componentDidMount(){
         axios.get(BASE_URL).then((res) =>{
             const jobs = res.data;
-            console.log(jobs)
+            console.table(jobs)
             this.setState({jobs})
         });
     }
